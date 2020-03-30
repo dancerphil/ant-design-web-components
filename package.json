@@ -1,12 +1,14 @@
 {
   "name": "ant-design-web-components",
   "version": "0.1.0",
+  "description": "An enterprise-class UI design language and Web Components implementation",
   "private": true,
   "dependencies": {
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1"
   },
   "devDependencies": {
+    "antd": "^4.1.0",
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },

@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #1890ff;
+
+    /* temp */
+    --link-color: #40a9ff;
+    --white: #fff;
+    --gray: #d9d9d9;
+    --text-color: rgba(0,0,0,.65);
+
+    /* temp */
+    --border-transparent: 1px solid transparent;
+    --text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+    --box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    --box-shadow__primary: 0 2px 0 rgba(0,0,0,.045);
+    --transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+[data-theme="dark"] {
+
+}
+
+* {
+    box-sizing: border-box;
+}

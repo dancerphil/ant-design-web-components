@@ -12,7 +12,7 @@ export class MyElement extends LitElement {
 
     static styles = css`
         span {
-          color: green;
+          color: var(--primary-color);
         }`;
 
     // Render element DOM by returning a `lit-html` template.

@@ -1,10 +1,15 @@
+import {render} from 'lit-html';
+import './root.css';
 import './example';
-// @ts-ignore
-import {html, render} from 'lit-html';
+import './button';
+import './typography';
+import './title';
+import './paragraph';
+import './divider';
+import './grid';
+import './affix';
+import './card';
+import Page from './demo';
 
-const Component1 = (data: any) => html`
-<h1>${data.title}</h1>
-<p>${data.body}</p>
-<div><awc-example></awc-example></div>`
-const root = Component1({title: 'Title', body: 'body'})
+const root = Page()
 render(root, document.body)
